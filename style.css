@@ -8,7 +8,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.nav-size{
+.size{
     width: 87%;
     max-width: 1050;
     margin: 0 auto;
@@ -142,4 +142,49 @@
 }
 #banner-content{
     padding: 90px 70px 110px 70px;
+}
+#notes h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+}
+#notes p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #826270;
+}
+#notes{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#card-root .card{
+    width: 310px;
+    height: 320px;
+    padding-top: 80px;
+    padding-right: 20px;
+   
+    
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    margin-bottom: 40px;
+    
+}
+
+.card h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.card p{
+    color: #627382;
+    font-size: 16px;
+    
+}
+#card-root{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
 }
