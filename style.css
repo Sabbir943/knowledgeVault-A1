@@ -13,6 +13,7 @@
     max-width: 1050;
     margin: 0 auto;
     margin-top:15px;
+    margin-bottom: 20px;
 }
 #nav-links ul{
     list-style-type: none;
@@ -38,4 +39,107 @@
     padding: 10px 14px;
     border-radius: 10px;
     border: none;
+    
+}
+.btn:hover{
+    background-color: white;
+    color: #469165;
+    cursor: pointer;
+}
+.diff-btn{
+    background-color: white;
+    color: green;
+    border: none;
+    padding: 8px 12px;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+
+.diff-btn:hover{
+    background-color: aquamarine;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.diff-btn p{
+    margin-top: 3px;
+    
+}
+.btn-b{
+    background-color: #469165;
+    color:white; 
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    padding: 12px 16px;
+    border: none;
+}
+.btn-b:hover{
+    background-color: antiquewhite;
+    color: cadetblue;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-c{
+   
+    padding: 12px 16px;
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid white;
+    
+     background-color: rgba(0, 0, 0, 0.1);
+     color: white;
+}
+.btn-c:hover{
+    background-color: pink;
+    color: fuchsia;
+    font-weight: bold;
+    cursor: pointer;
+}
+#two-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+#banner-root{
+    height: 600px;
+    background: url("assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    
+}
+#banner h1{
+    font-size: 70px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 700;
+}
+#banner h1 span{
+    color: #469165;
+}
+#banner p{
+    font-size: 18px;
+    
+}
+#banner #banner-p{
+    color: aliceblue;
+    line-height: 24px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#banner-content{
+    padding: 90px 70px 110px 70px;
 }
