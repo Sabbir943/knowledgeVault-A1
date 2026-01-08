@@ -188,3 +188,36 @@
     justify-content: space-between;
     gap: 25px;
 }
+#brain-content p{
+    display: flex;
+    gap: 10px;
+}
+#brain{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+#brain .img-kk{
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+}
+#brain #brain-p{
+    text-transform: uppercase;
+    color: #469165;
+    font-size: 16px;
+    margin-top: 20px;
+}
+#brain h1{
+    font-size: 44px;
+    color: #001931;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+#brain #brain-p2{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
