@@ -278,3 +278,33 @@
     margin-bottom: 30px;
     margin-top: 20px;
 }
+#footer-root{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 30px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 60px;
+    
+    
+}
+#foot-dada{
+    width: 100%;
+    background-color: #001731;
+    height: 350px;
+    margin-top: 60px;
+    
+}
+#footer-links p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+#copy{
+    color: #FAFAFA;
+    text-align: center;
+    font-size: 16px;
+    ;
+}
